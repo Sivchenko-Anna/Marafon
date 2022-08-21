@@ -1,37 +1,77 @@
-@font-face {
-	font-family: 'Montserrat';
-	src: url('Montserrat-Regular.woff2') format('woff2') url('Montserrat-Regular.woff') format('woff');
-	font-weight: 400;
+body {
+	margin: 0;
+	
+	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
-  font-display: swap;
-}
-@font-face {
-	font-family: 'Montserrat';
-	src: url('Montserrat-Italic.woff2') format('woff2') url('Montserrat-Italic.woff') format('woff');
-	font-weight: 400;
-	font-style: italic;
-  font-display: swap;
-}
-@font-face {
-	font-family: 'Montserrat';
-	src: url('Montserrat-Medium.woff2') format('woff2') url('Montserrat-Medium.woff') format('woff');
-	font-weight: 500;
-	font-style: normal;
-  font-display: swap;
-}
-@font-face {
-	font-family: 'Montserrat';
-	src: url('Montserrat-MediumItalic.woff2') format('woff2') url('Montserrat-MediumItalic.woff') format('woff');
-	font-weight: 500;
-	font-style: italic;
-  font-display: swap;
+	font-size: 18px;
+	line-height: 30px;
+  font-weight: 400;
+	color: #533738;
+
+	background-color: #F6EDE9;
 }
 
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #533738;
+}
 
 h1 {
-  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
-  font-weight: 400;
   line-height: 20px;
-  color: rgba(83, 55, 56, 1);
+	font-weight: 400;
+}
+
+h2 {
+	font-size: 40px;
+	line-height: 50px;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.nav-item,
+.phone {
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.section-1 {
+	background-image: url("/assets/img/main.png");
+	height: 715px;
+}
+
+.slogan {
+	font-size: 50px;
+  line-height: 62px;
+  font-weight: 400;
+	text-transform: none;
+}
+
+.button {
+	width: 310px;
+	height: 74px;
+	text-align: center;
+	
+	background-color: #CC8B86;
+}
+
+.application {
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: 500;
+}
+
+.company-description {
+  width: 528px;
+	height: 330px;
+}
+
+
+.portfolio-description {
+	background: url("/assets/img/portfolio1.png") no-repeat;
 }

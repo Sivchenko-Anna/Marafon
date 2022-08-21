@@ -4,44 +4,47 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
   <title>Scandi</title>
 </head>
 <body>
-  <header>
+  <header class="header">
     <div>
       <img src="assets/img/logo.png" alt="logo">
       <h1>SCANDI</h1>
     </div>
-    <nav>
+    <nav class="pagination">
       <ul>
-        <li><a href="#aboutСompany">О компании</a></li>
-        <li><a href="#portfolio">Портфолио</a></li>
-        <li><a href="#team">Команда</a></li>
-        <li><a href="#howWork">Как мы работаем</a></li>
-        <li><a href="#reviews">Отзывы клиентов</a></li>
-        <li><a href="#application">Оставить заявку</a></li>
+        <li class="nav-item"><a href="#aboutСompany">О компании</a></li>
+        <li class="nav-item"><a href="#portfolio">Портфолио</a></li>
+        <li class="nav-item"><a href="#team">Команда</a></li>
+        <li class="nav-item"><a href="#howWork">Как мы работаем</a></li>
+        <li class="nav-item"><a href="#reviews">Отзывы клиентов</a></li>
+        <li class="nav-item"><a href="#application">Оставить заявку</a></li>
       </ul>
     </nav>
-    <div>+7 (981) 857-46-24</div>
+    <a class="phone" href="tel:+79818574624">+7 (981) 857-46-24</a>
   </header>
   <main>
-    <section>
+    <section class="section-1">
       <div>
-        <h2>Поможем сделать вашу квартиру уютнее</h2>
+        <h2 class="slogan">Поможем сделать вашу квартиру уютнее</h2>
         <p>Подбираем текстиль, мебель и аксессуары
           под ваш интерьер, находим магазины
           и помогаем организовать доставку </p>
-          <a href="#application">Оставить заявку</a>
+          <div class="button">
+            <a href="#application" class="application">Оставить заявку</a>
+          </div>
       </div>
     </section>
-    <section>
+    <section class="section-2">
       <h2 id="aboutСompany">О нас</h2>
       <div>
-        <img src="assets/img/aboutСompany.png" alt="">
+        <img src="assets/img/aboutСompany.png" alt="" width="445px" height="465px">
       </div>
-      <div>
+      <div class="company-description">
         <p>Премиальный европейский текстиль — одно из самых главных направлений работы коллектива. Создавать неповторимые интерьеры для наших дорогих клиентов, уделяя внимание мельчайшим деталям — вот то, что по-настоящему вдохновляет дизайнеров нашей студии.</p>
         <p>Наш коллектив сделает все, чтобы после сотрудничества с нами,  Вам было приятно сказать:
           « Да! Это именно то, что действительно достойно моего дома!»</p>
@@ -63,7 +66,7 @@
     </section>
     <section>
       <h2 id="portfolio">Наши работы</h2>
-      <div>
+      <div class="portfolio-description">
         <h3>Квартира-студия 30 кв.м.</h3>
         <p>В квартире были светлые стены и тёплые цвета. Мы сконцентрировались на отсылках к природе и сделали ребятам уютный интерьер, отсылающий к виллам островов Бали.</p>
       </div>
@@ -158,7 +161,7 @@
   <footer>
     <div>
       <ul>
-        <li>+7 (981) 857-46-24</li>
+        <li><a class="phone" href="tel:+79818574624">+7 (981) 857-46-24</a></li>
         <li><address>г. Санкт-петербург, ул. Большая Конюшенная, 19</address></li>
       </ul>
     </div>
