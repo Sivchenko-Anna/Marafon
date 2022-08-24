@@ -39,7 +39,6 @@ a {
 .logo {
   font-size: 16px;
   line-height: 20px;
-	font-weight: 400;
 }
 
 .section-title {
@@ -65,26 +64,38 @@ a {
 	font-size: 50px;
   line-height: 62px;
   font-weight: 400;
-	text-transform: none;
 }
 
 .button {
 	width: 310px;
 	height: 74px;
 	text-align: center;
+	display: inline-block;
+
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	line-height: 25px;
+	font-weight: 500;
 	
 	background-color: #CC8B86;
+	border: none;
+	color: #533738;
 }
 
 .application {
-	font-size: 20px;
-	line-height: 24px;
-	font-weight: 500;
+	padding-top: 25px;
+	height: 49px;
 }
 
 .company-description {
   width: 528px;
 	height: 330px;
+}
+
+.achievement {
+	height: 273px;
+	background-color: #8D7370;
+	color: #FFFFFF;
 }
 
 .more {
@@ -112,8 +123,4 @@ a {
 	width: 72px;
 	height: 72px;
 	border: none;
-}
-
-button:hover {
-	transform: scale(1.2);
 }
