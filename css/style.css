@@ -64,6 +64,7 @@ a {
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 715px;
+	width: 1400px;
 }
 
 .slogan {
@@ -101,6 +102,14 @@ a {
 .application-btn {
 	padding-top: 25px;
 	height: 49px;
+}
+
+.container-company {
+	width: 1036px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	padding-bottom: 21px;
 }
 
 .company-description {
@@ -281,6 +290,8 @@ a {
 }
 
 .review-slider {
+	width: 1036px;
+	margin: 0 auto;
 	padding-bottom: 65px;
 }
 
@@ -288,22 +299,30 @@ a {
 	width: 407px;
 }
 
+.container-application {
+	width: 1118px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 181px;
+	padding-right: 101px;
+}
+
 .application-title {
 	padding-top: 50px;
+	padding-bottom: 24px;
 }
 
 .application-text {
 	margin: 0;
+	margin-bottom: 38px;
 }
 
-.form-text {
-	margin: 0;
+.form {
+  width: 508px;
 }
 
 .input {
-	padding: 0;
-	width: 508px;
-	height: 35px;
 	border: 0;
 	border-bottom: 1px solid #FFFFFF;
 	line-height: 30px;
@@ -311,8 +330,16 @@ a {
 	color: #FFFFFF;
 }
 
+input[type="text"],
+input[type="tel"] {
+  padding: 0;
+	padding-bottom: 10px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
 .input-text {
-	margin-bottom: 35px;
+	margin-bottom: 25px;
 }
 
 .input-tel{
@@ -324,4 +351,32 @@ input::-moz-placeholder { /* Mozilla Firefox browsers */
 }
 input::-webkit-input-placeholder { /* Safari и Chrome */
 	color:    #FFFFFF;
+}
+
+.container-footer {
+	display: flex;
+	width: 1200px;
+	margin: 0 auto;
+	padding: 37px 100px;
+}
+
+.address,
+.copyright {
+	margin: 0;
+}
+
+.phone-footer {
+	width: 161px;
+	margin-right: auto;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.address {
+	width: 451px;
+}
+
+.copyright {
+	width: 167px;
+	margin-left: 379px;
 }
