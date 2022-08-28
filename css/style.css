@@ -89,7 +89,7 @@ a {
 }
 
 .promo {
-	background-image: url("../assets/img/main.png");
+	background-image: url("assets/img/main.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 715px;
@@ -226,7 +226,7 @@ a {
 	width: 488px;
 	height: 451px;
 	
-	background-image: url("../assets/img/portfolio1.png");
+	background-image: url("assets/img/portfolio1.png");
 	background-repeat: no-repeat;
 	color: #FFFFFF;
 }
